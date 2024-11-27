@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare</title>
+    <link rel="stylesheet" href="care.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img width="300" height="100" src="https://images.indianexpress.com/2023/06/Dil-LEAD.jpg" alt="">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner">
+        <h1>Welcome to Our Healthcare Services</h1>
+        <h2><img align="right" width="250" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkJVl2cC7yYTKtQ26Trt7VO5ma3a_pZ9-bA&s" alt=""></h2>
+        <p>Providing quality health services for a better tomorrow</p>
+        <button onclick="getStarted()">Get Started</button>
+
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <img width="150" height="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRl4Zu61wmcfiFUx97l9AsVqVg7GkY0FmsMQ&s" alt="Doctor Consultation">
+                <h3>Doctor Consultation</h3>
+                <p>Get expert consultation from our experienced doctors.</p>
+            </div>
+            <div class="service-card">
+                <img width="150" height="100" src="https://www.carehospitals.com/raipur/assets/images/main/1661845026_63708737b1f75539f4e9.jpeg" alt="Health Checkup">
+                <h3>Health Checkup</h3>
+                <p>Comprehensive health checkups for all ages.</p>
+            </div>
+            <div class="service-card">
+                <img width="150" height="100" src="https://img.freepik.com/premium-vector/healthcare-medical-services-doctor-holding-hand-abstract-3d-sphere-globe-with-surface-hexagons-with-medical-icons-health-care-medicine-technology-network-concept-vector-illustration_127544-2373.jpg" alt="Emergency Services">
+                <h3>Emergency Services</h3>
+                <p>24/7 emergency care and support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a leading healthcare provider, offering personalized care for every individual. Our doctors are experienced and committed to providing the best possible health services.</p>
+    </section>
+
+    <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+          <p>Advanced Educational Institutions
+        70 K.M., Delhi-Mathura Road,
+        Dist. Palwal, Haryana-121105
+        <br>
+        For General Enquiry : +91 8930402222, +91 8930502222
+  
+
+    <section id="contact" class="contact">
+    
+        <form id="contactForm" onsubmit="return validateForm()">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Healthcare Services. All rights reserved.</p>
+    </footer>
+
+    <script src="Untitled-1.js"></script>
+</body>
+</html>
