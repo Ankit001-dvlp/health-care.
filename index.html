@@ -6,7 +6,10 @@
     <title>Healthcare</title>
     <link rel="stylesheet" href="care.css">
 </head>
+<script src="Untitled-1.js"></script>
 <body>
+
+    
 
     <!-- Header Section -->
     <header>
@@ -25,7 +28,7 @@
 
     <!-- Banner Section -->
     <section id="home" class="banner">
-        <h1>Welcome to Our Healthcare Services</h1>
+        <h1>Welcome to Nishant Healthcare Services</h1>
         <h2><img align="right" width="250" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkkJVl2cC7yYTKtQ26Trt7VO5ma3a_pZ9-bA&s" alt=""></h2>
         <p>Providing quality health services for a better tomorrow</p>
         <button onclick="getStarted()">Get Started</button>
@@ -53,10 +56,12 @@
             </div>
         </div>
     </section>
+    <br><br>
 
     <!-- About Section -->
     <section id="about" class="about">
         <h2>About Us</h2>
+        <br>
         <p>We are a leading healthcare provider, offering personalized care for every individual. Our doctors are experienced and committed to providing the best possible health services.</p>
     </section>
 
@@ -64,31 +69,38 @@
   <section id="contact" class="contact">
     <div class="container">
       <h2>Contact Us</h2>
-          <p>Advanced Educational Institutions
-        70 K.M., Delhi-Mathura Road,
-        Dist. Palwal, Haryana-121105
+          <p>Nishant Healthcare, Hasanpur Chowk, Hodal,
+              121106, Haryana
         <br>
-        For General Enquiry : +91 8930402222, +91 8930502222
-  
+        For General Enquiry : +91 9518831731
+  </p>
 
     <section id="contact" class="contact">
-    
-        <form id="contactForm" onsubmit="return validateForm()">
-            <label for="name">Your Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Your Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+    <div class="container">
+        <form
+  action="https://formspree.io/f/mzzbjabl"
+  method="POST"
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+        <input type="Massage" name="Massage" class="form-control" placeholder="Massage" required>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</section>
 
     <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Healthcare Services. All rights reserved.</p>
-    </footer>
-
-    <script src="Untitled-1.js"></script>
+                <p>&copy; 2024 Healthcare Services. All rights reserved.</p>
+        </footer>
+    
 </body>
 </html>
