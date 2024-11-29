@@ -1,0 +1,148 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Container for Layout */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Intro Section */
+#intro {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#intro h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#intro img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Services Section */
+#services {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.packages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: skyblue;
+}
+
+.package-card {
+    background-color: yellow;
+    width: 300px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.package-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.package-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.package-card p {
+    font-size: 16px;
+}
+
+/* Doctors Section */
+#doctors {
+    padding: 40px 0;
+}
+
+.doctor-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.doctor-card {
+    background-color: white;
+    width: }
+    
+
+    footer {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    

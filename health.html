@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Health Checkup</title>
+    <link rel="stylesheet" href="ankit2000.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Health Checkup</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Checkup Packages</a></li>
+                <li><a href="#doctors">Meet Our Doctors</a></li>
+                <li><a href="#appointment">Book Appointment</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="intro">
+    <div class="container">
+        <h2>Health Checkup</h2>
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUKso6aI-qnat0AUGta7pQke2oGnzdXxfvQ&s" alt="Health Checkup">
+        <br>
+        <p>We offer comprehensive health checkup packages tailored to meet your needs and keep you healthy.</p>
+    </div>
+</section>
+
+<section id="services">
+    <div class="container">
+        <h2>Checkup Packages</h2>
+        <div class="packages">
+            <!-- Package 1 -->
+            <div class="package-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPSmQahIsrQr-BrlBSbMMwaB2-d27-jzlnZw&s" alt="Basic Checkup">
+                <h3>Basic Checkup</h3>
+                <p>Includes general health check, blood pressure check, and blood test.</p>
+                <p><strong>₹ 499</strong></p>
+            </div>
+            <!-- Package 2 -->
+            <div class="package-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhkS1Ad-v6HYgyr94m3ZpQOA3dkt9as7MFRw&s" alt="Premium Checkup">
+                <h3>Premium Checkup</h3>
+                <p>Comprehensive health test, ECG, chest X-ray, and lab tests.</p>
+                <p><strong>₹ 800</strong></p>
+            </div>
+            <!-- Package 3 -->
+            <div class="package-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvdx3ofjg49Y1MqBQHEoyVzrm8ZZlO84cX0g&s" alt="Advanced Checkup">
+                <h3>Advanced Checkup</h3>
+                <p>Full body checkup, ultrasound, stress test, and health screening.</p>
+                <p><strong>₹ 1000</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="doctors">
+    <div class="container">
+        <center><h2>Meet Our Doctors</h2></center>
+        <br><br>
+        <div class="doctor-cards">
+            <!-- Doctor Card 1 -->
+            <div class="doctor-card">
+                <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9olv7nF26qOKIE4uKhLPJorZ3FZJdRbg43A&s" alt="Dr. John Doe"></center>
+                <h3>Dr. John Doe</h3>
+                <p>General Physician</p>
+                <p>Dr. John is a compassionate and skilled physician with 10+ years of experience in providing preventive care.</p>
+            </div>
+            <!-- Doctor Card 2 -->
+            <div class="doctor-card">
+                <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYWejxqrQ-RNWnAz9jseERHNS3sgyebi0gg&s" alt="Dr. Emily Smith"></center>
+                <h3>Dr. Emily Smith</h3>
+                <p>Cardiologist</p>
+                <p>Dr. Emily specializes in heart health and offers preventive cardiac care to ensure your heart stays healthy.</p>
+            </div>
+            <!-- Doctor Card 3 -->
+            <div class="doctor-card">
+                <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjd39T2qVKhVWuCLHY9Z6vsbv5tNxW3uGAxw&s" alt="Dr. Michael Brown"></center>
+                <h3>Dr. Michael Brown</h3>
+                <p>Endocrinologist</p>
+                <p>Dr. Michael focuses on hormone-related conditions and provides expert advice on diabetes management.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<br><br><br>
+
+<section id="appointment">
+    <div class="container">
+        <h2>Book Your Health Checkup Appointment</h2>
+        <br>
+        <form  action="https://formspree.io/f/xbljpjyv"
+  method="POST">
+  
+  <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="checkup-package">Select Checkup Package:</label>
+            <select id="checkup-package" name="checkup-package" required>
+                <option value="Basic Checkup">Basic Checkup</option>
+                <option value="Premium Checkup">Premium Checkup</option>
+                <option value="Advanced Checkup">Advanced Checkup</option>
+            </select><br>
+
+            <label for="doctor">Select Doctor:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="Dr. John Doe">Dr. John Doe (General Physician)</option>
+                <option value="Dr. Emily Smith">Dr. Emily Smith (Cardiologist)</option>
+                <option value="Dr. Michael Brown">Dr. Michael Brown (Endocrinologist)</option>
+            </select><br>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+            <br><br><br>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </div>
+</section>
+<br><br><br>
+<center>
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2><br><br>
+        <p>If you have any questions, feel free to contact us.</p>
+        
+            <li>Phone: <a href="tel:+91 9518831731">+91 9518831731</a></li>
+            <li>Email: <a href="mailto:contact@healthcheckup.com">contact@healthcheckup.com</a></li>
+            <li>Address: Nishant Healthcare, Hasanpur Chowk, Hodal, 121106, Haryana</li>
+        </center>
+    </div>
+</section>
+<br><br>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Health Checkup Services. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

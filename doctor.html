@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Doctor Consultation</title>
+    <link rel="stylesheet" href="doctor2000.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Doctor Consultation </h1>
+        <nav>
+            <ul>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointment">Book Appointment</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<br><br><br>
+<section id="doctors">
+    <div class="container">
+        <h2>Meet Our Doctors</h2>
+        <div class="doctor-cards">
+            <!-- Doctor Card 1 -->
+            <div class="doctor-card">
+                <img src="https://www.ugurdeveci.com.tr/wp-content/uploads/2016/08/team-member3-1-16-716x700.jpg" alt="Dr. John Doe">
+                <h3>Dr. John Doe</h3>
+                <p>Cardiologist</p>
+                <p>Dr. John is an experienced cardiologist with over 20 years of experience in heart health and treatments.</p>
+            </div>
+            <!-- Doctor Card 2 -->
+            <div class="doctor-card">
+                <img src="https://bebetterutah.org/wp-content/uploads/2024/07/Impact-Now-Sarah-2.jpg" alt="Dr. Jane Smith">
+                <h3>Dr. Jane Smith</h3>
+                <p>General Physician</p>
+                <p>Dr. Jane offers comprehensive healthcare services with a focus on preventive care.</p>
+            </div>
+            <!-- Doctor Card 3 -->
+            <div class="doctor-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW7LdUJWuaHp9T6aWGypSuIazVpZIQugrYyA&s" alt="Dr. Emily Brown">
+                <h3>Dr. Emily Brown</h3>
+                <p>Pediatrician</p>
+                <p>Dr. Emily specializes in children’s health and offers compassionate care for young patients.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br><br>
+
+<section id="appointment">
+    <div class="container">
+        <h2>Book Your Appointment</h2>
+            <form  action="https://formspree.io/f/xbljpjyv"
+  method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="doctor">Select Doctor:</label>
+            <select id="doctor" name="doctor">
+                <option value="Dr. John Doe">Dr. John Doe (Cardiologist)</option>
+                <option value="Dr. Jane Smith">Dr. Jane Smith (General Physician)</option>
+                <option value="Dr. Emily Brown">Dr. Emily Brown (Pediatrician)</option>
+            </select><br>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required><br>
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required><br>
+
+            <button type="submit">Book Appointment</button>
+        </form>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to contact us.</p>
+        <ul>
+            <li>Phone: <a href="tel:+1234567890">+91 9518831731</a></li>
+            <li>Email: <a href="mailto:contact@doctorconsultation.com">contact@doctorconsultation.com</a></li>
+            <li>Address: Nishant Healthcare, Hasanpur Chowk, Hodal,
+                121106, Haryana</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Doctor Consultation Services. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
