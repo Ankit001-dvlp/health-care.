@@ -1,0 +1,193 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Intro Section */
+#intro {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#intro h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#intro img {
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 0;
+    background-color: #e5e5e5;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: white;
+    width: 30%;
+    margin: 15px 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.service-card p {
+    font-size: 16px;
+}
+
+/* Doctors Section */
+#doctors {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.doctor-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.doctor-card {
+    background-color: white;
+    width: 30%;
+    margin: 15px 0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.doctor-card h3 {
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.doctor-card p {
+    font-size: 16px;
+}
+
+/* Help Section */
+#help {
+    padding: 40px 0;
+    background-color: #ffeb3b;
+    text-align: center;
+}
+
+#help h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#help p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c62828;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+   
